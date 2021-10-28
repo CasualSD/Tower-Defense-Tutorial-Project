@@ -17,7 +17,7 @@ public class TurretFindRotate : MonoBehaviour
     void UpdateTarget()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
-        float shortestDistance = Mathf.Infinity;
+        float shortestDistance = Mathf.Infinity; //
         GameObject nearestEnemy = null;
         foreach (GameObject enemy in enemies)
         {
